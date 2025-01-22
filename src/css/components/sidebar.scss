@@ -1,0 +1,71 @@
+.sidebar {
+	width: 280px;
+	max-width: 280px;
+	min-height: 100vh;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+	margin-top: 127px;
+
+	ul {
+		width: 240px;
+		margin-left: auto;
+
+		li {
+			a {
+				font-size: 18px;
+				font-weight: 700;
+				display: block;
+				padding: 1rem 0 1rem 24px;
+				color: #484848;
+				display: flex;
+				align-items: center;
+                border-radius: 12px 0 0 12px;
+
+				&.current {
+					background: #1bc681;
+                    color: #ffffff;
+				}
+
+                &:hover {
+                    text-decoration: underline;
+                }
+
+				svg {
+					margin-right: 1rem;
+
+					path {
+						fill: #484848;
+					}
+				}
+			}
+		}
+	}
+}
+
+.help-card {
+	margin: auto 30px 24px 30px;
+	background-color: #1bc681;
+	padding: 1rem;
+	border-radius: 6px;
+	color: #fff;
+
+	h2 {
+		margin-bottom: 1rem;
+	}
+
+	a {
+		display: block;
+		border: solid 2px #fff;
+		border-radius: 6px;
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 18px;
+		font-weight: 600;
+		color: #fff;
+		padding: 8px 24px;
+	}
+}

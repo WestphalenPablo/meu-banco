@@ -1,0 +1,20 @@
+@use "./global";
+@use "./utilities";
+@use "./pages/login.scss";
+@use "./pages/dashboard.scss";
+@use "./pages/placeholder.scss";
+@use "./components/sidebar.scss";
+@use "./components/button.scss";
+
+main {
+	display: flex;
+	flex-direction: column;
+	background-color: #1bc681;
+	flex: 1;
+
+	.container {
+		width: 100%;
+		max-width: 1090px;
+		margin: 0 auto;
+	}
+}
